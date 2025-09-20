@@ -1,0 +1,5 @@
+Django>=4.2.0
+python-dotenv>=0.21.0
+prisma>=0.8.0
+prisma-client>=0.8.0
+prisma-json>=0.1.4

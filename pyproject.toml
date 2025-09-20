@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "outsourcing-company"
+version = "0.1.0"
+description = "Outsourcing Company Management System"
+authors = ["Jobet P. Casquejo <jcasquejo56@gmail.com>"]
+readme = "README.md"
+packages = [{include = "prisma"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+prisma = "^0.10.0"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.prisma]
+# Relative to the location of this file
+prisma_folder = "./prisma"
+
+[prisma]
+# Prisma client configuration
+package = "prisma"
+client = "prisma/client"

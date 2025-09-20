@@ -2,6 +2,17 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Node.js
+node_modules/
+
+# Prisma
+prisma/client/
+prisma/__pycache__/
+prisma/*.pyc
+!.prisma/client/
+!prisma/__init__.py
+!prisma/prisma.py
 *.so
 .Python
 build/
